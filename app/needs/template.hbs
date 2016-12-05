@@ -1,0 +1,20 @@
+
+<!-- {{outlet}} -->
+
+<div class="row">
+  <div id="side_bar" class="col s2">
+    <h1 class="flow-text">Needs</h1>
+    <ul id="needs">
+      <li>{{#link-to 'needs.physiological'}}Physiological{{/link-to}}</li>
+      <li>{{#link-to 'needs.physiological.safety'}}Safety{{/link-to}}</li>
+      <li>{{#link-to 'needs.physiological.safety.love_belonging'}}Love/Belonging{{/link-to}}</li>
+      <li>{{#link-to 'needs.physiological.safety.love_belonging.esteem'}}Esteem{{/link-to}}</li>
+      <li>{{#link-to 'needs.physiological.safety.love_belonging.esteem.self_actualization'}}Self Actualization{{/link-to}}</li>
+    </ul>
+  </div>
+  <div class="col s10">
+    <div class="row">
+      {{outlet}}
+    </div>
+  </div>
+</div>

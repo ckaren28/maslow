@@ -1,0 +1,22 @@
+nav {
+  background-color: #333;
+}
+.need {
+  height: 400px;
+}
+#physiological {
+  background-color: red;
+}
+#safety {
+  background-color: orange;
+}
+#love_belonging {
+  background-color: yellow;
+}
+#esteem {
+  background-color: lime;
+}
+#self_actualization {
+  background-color: blue;
+  color: white;
+}
